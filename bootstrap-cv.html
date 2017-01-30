@@ -66,15 +66,39 @@
         </div>
     </header>
 
+    <!--C'est parti pour le footer-->
+    <footer class="row">
+        <!--On coupe en trois zone-->
+        <!--La premiere prend toute la largeur pour le titre-->
+        <div class="col-xs-12 bg-rouge">
+            <h3><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Contact</h3>
+        </div>
+        <!--Celle ci prend la moitié gauche sur grand écran et toute la largeur sur mobile-->
+        <div class="col-xs-12 col-md-6 bg-jaune" style="text-align: right">
+            <form>
+                <div class="form-group">
+                    <input class="form-control" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Envoyer</button>
+            </form>
+        </div>
+        <!--Idem ici je prend la partie droite car je suis en deuxième-->
+        <div class="col-xs-12 col-md-6 bg-bleu">
+            <div>28 boulevard truc</div>
+            <div>75000 Champions League</div>
+            <div>Tel: 06.06.06.06.06</div>
+            <!--Ici on ajoute la carte google maps-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11134.860103689063!2d3.100202096508788!3d45.75685874963976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1485815815920"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </footer>
+
 </div>
-
-
 <!-- All good things come to an end -->
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
