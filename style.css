@@ -35,6 +35,13 @@ h4 {
     max-width: 800px;
 }
 
+section.row h3 img {
+    position: relative;
+    top: 5px;
+    margin-right: 6px;
+    float: left;
+}
+
 /* --- HEADER --- */
 
 header {
@@ -178,13 +185,6 @@ section.experiences {
     box-shadow: 0 1px 0 white;
 }
 
-img.experiences_pro {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
-}
-
 img.simple {
     position: relative;
     top: 5px;
@@ -220,13 +220,6 @@ section.formations {
     box-shadow: 0 1px 0 white;
 }
 
-img.formations {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
-}
-
 /* --- INTERESTS --- */
 
 section.interets {
@@ -234,53 +227,34 @@ section.interets {
     box-shadow: 0 1px 0 white;
 }
 
-aside.voyage {
-    display: inline-block;
-    width: 33%;
+section.interets .tile {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px 0;
+    padding-right: 25px;
 }
 
-aside.jeuxvideo {
-    display: inline-block;
-    width: 33%;
+section.interets .image {
+    flex: 0 0 32px;
 }
 
-aside.photographie {
-    display: inline-block;
-    width: 33%;
+section.interets .content {
+    flex: 0 1 100%;
+    margin-left: 15px;
 }
 
-img.centre_interet {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
+section.interets h4 {
+    margin-top: 0;
 }
 
-ul.interets {
-    list-style-type: none;
-}
-
-img.interets {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
-}
-
-p.interets {
+section.interets p {
     font: normal 12px 'Source Sans Pro', sans-serif;
     color: #000000;
-    margin: 1px 0 0 38px;
+    margin-top: 5px;
 }
 
 /* --- CONTACT --- */
-
-img.contact {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
-}
 
 form {
     width: 42%;
