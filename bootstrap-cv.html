@@ -80,9 +80,12 @@
         </div>
     </nav>
 
-    <div class="row">
+    <section class="row competences">
         <div class="col-xs-12">
-            <h3><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Compétences</h3>
+            <h3>
+                <img class="competences hidden-xs" src="images/titres/competences.png" alt="competences">
+                Compétences
+            </h3>
         </div>
         <div class="col-xs-12">
             <!--On démarre une nouvelle row car on ne peux pas enchainer des col-* dans des col-* directement-->
@@ -213,17 +216,142 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="row experiences">
+        <article>
+            <h3>
+                <img class="experiences_pro" src="images/titres/experiences_pro.png" alt="experiences_pro">
+                Expériences professionnelles
+            </h3>
+            <img class="simple" src="images/experiences/simple_it_logo.png" alt="simple">
+            <h4>
+                Depuis 2010 <strong>Intégrateur Web</strong> chez Simple IT, Paris
+            </h4>
+            <p>
+                Réalisation d'interfaces web riches dans le respect des maquettes fournies par le pôle graphisme. Intégrations valides W3C et HTML5 et CCS3 pour la réalisation d'un site de cours en ligne. Mise en place de la stratégie de responsive web design pour un accès lisible sur tous les mobiles et toutes les tablettes.
+            </p>
+            <img class="macdo" src="images/experiences/macdo_logo.png" alt="macdo">
+            <h4>
+                2009 <strong> Equipier polyvalent </strong>chez McDonalds, Avignon
+            </h4>
+            <p>
+                Tenue de la caisse, réalisation des hamburgers, des frites, des potatoes et de tout un tas de choses bien grasses. Animations Ronald McDonald le weekend.
+            </p>
+            <img class="tavel" src="images/experiences/tavel_logo.png" alt="tavel">
+            <h4>
+                2008 <strong>Vendanges</strong> chez Tavel
+            </h4>
+            <p>
+                Vendanges du premier rosé de France durant le mois de septembre 2008.
+            </p>
+        </article>
+    </section>
+
+    <section class="row formations">
+        <article>
+            <h3>
+                <img class="formations" src="images/titres/formations.png" alt="formations">
+                Formations & diplômes
+            </h3>
+            <h4>
+                2003-2008 <strong>Diplôme d'ingénieur</strong> à Polytechnique
+            </h4>
+            <p>
+                Spécialité système d'information. Major de promo. Réalisation du projet de fin d'étude "OpenClassrooms": plateforme communautaire d'éducation ouverte à tous.
+            </p>
+            <h4>
+                2001-2003 <strong>Baccalauréat scientifique</strong> lycée Henry IV, Paris
+            </h4>
+            <p>
+                Premier de la classe et délégué de classe chaque année!
+            </p>
+
+        </article>
+    </section>
+
+    <section class="row interets">
+        <h3>
+            <img class="centre_interet" src="images/titres/centre_interet.png" alt="centre_interet">
+            Centres d'intérêt
+        </h3>
+        <aside id="voyage">
+            <ul class="interets">
+                <li>
+                    <img class="voyages interets" src="images/centre_interet/voyages.png" alt="voyages">
+                    <h4>
+                        J'aime les voyages
+                    </h4>
+                    <p class="interets">
+                        Chaque année, je pars en Asie, en Afrique ou en Océanie.
+                    </p>
+                </li>
+                <li>
+                    <img class="tir_a_l_arc interets" src="images/centre_interet/tir_a_l_arc.png" alt="tir_a_l_arc">
+                    <h4>
+                        Le tir à l'arc
+                    </h4>
+                    <p class="interets">
+                        Je pratique depuis tout petit et je ne rate jamais ma cible!
+                    </p>
+                </li>
+            </ul>
+        </aside>
+        <aside class="jeuxvideo">
+            <ul class="interets">
+                <li>
+                    <img class="jeux interets" src="images/centre_interet/jeux.png" alt="jeux">
+                    <h4>
+                        Les jeux vidéos
+                    </h4>
+                    <p class="interets">
+                        FPS, RPG, Stratégie... Je suis un expert reconnu de DoTa
+                    </p>
+                </li>
+                <li>
+                    <img class="films interets" src="images/centre_interet/films.png" alt="films">
+                    <h4>
+                        Les films
+                    </h4>
+                    <p class="interets">
+                        Je suis un fan absolu de l'âne dans Shrek (c'est mon cousin).
+                    </p>
+                </li>
+            </ul>
+        </aside>
+        <aside class="photographie">
+            <ul class="interets">
+                <li>
+                    <img class="photographie interets" src="images/centre_interet/photographie.png" alt="photographie">
+                    <h4>
+                        La photographie
+                    </h4>
+                    <p class="interets">
+                        Je fais des photos de mes nombreux voyages.
+                    </p>
+                </li>
+                <li>
+                    <img class="poulet interets" src="images/centre_interet/poulet.png" alt="poulet">
+                    <h4>
+                        Manger du poulet
+                    </h4>
+                    <p class="interets">
+                        J'ai fait de cette passion un site www.zozormangedupoulet.eu
+                    </p>
+                </li>
+            </ul>
+        </aside>
+    </section>
 
     <!--C'est parti pour le footer-->
     <footer class="row">
         <!--On coupe en trois zone-->
         <!--La premiere prend toute la largeur pour le titre-->
-        <div class="col-xs-12 bg-rouge">
-            <h3><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Contact</h3>
+        <div class="col-xs-12">
+            <h3><span class="glyphicon glyphicon-send hidden-xs" aria-hidden="true"></span> Contact</h3>
         </div>
         <!--Celle ci prend la moitié gauche sur grand écran et toute la largeur sur mobile-->
-        <div class="col-xs-12 col-md-6 bg-jaune" style="text-align: right">
+        <div class="col-xs-12 col-md-6" style="text-align: right">
             <form>
                 <div class="form-group">
                     <input class="form-control" placeholder="Votre nom">
@@ -238,12 +366,16 @@
             </form>
         </div>
         <!--Idem ici je prend la partie droite car je suis en deuxième-->
-        <div class="col-xs-12 col-md-6 bg-bleu">
-            <div>28 boulevard truc</div>
-            <div>75000 Champions League</div>
-            <div>Tel: 06.06.06.06.06</div>
+        <div class="col-xs-12 col-md-6">
+            <address>
+                28 boulevard Haussmann
+                <br/>
+                75009 Paris
+                <br/>
+                Tel: 06.06.06.06.06
+            </address>
             <!--Ici on ajoute la carte google maps-->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11134.860103689063!2d3.100202096508788!3d45.75685874963976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1485815815920"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.232068833305!2d2.332843815674901!3d48.87285237928897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e39dd9519d7%3A0xf890152d30edeb28!2s28+Boulevard+Haussmann%2C+75009+Paris!5e0!3m2!1sfr!2sfr!4v1489489654195" allowfullscreen></iframe>
         </div>
     </footer>
 
