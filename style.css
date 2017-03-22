@@ -20,10 +20,23 @@ h2{
 	color: #03638b;
 }
 
+h3{
+	font: normal 24px 'Pacifico',cursive;
+	color: #002d40;
+	margin: 5px;
+}
+
+h4{
+	font: normal 14px 'Source Sans Pro',sans-serif;
+	color: #002d40;
+	margin-bottom:0;
+}
+
 .container {
 	max-width: 800px;
 }
 
+/* --- HEADER --- */
 
 header{
 	border-bottom: solid 1px #000000;
@@ -70,6 +83,8 @@ header img.photo{
 	}
 }
 
+/* --- NAV --- */
+
 nav{
 	font-family:'Source Sans Pro', sans-serif;
 	border-bottom: solid 1px #000000;
@@ -95,84 +110,61 @@ nav .lienmenu {
 	}
 }
 
-section.competences{
+/* --- COMPETENCES --- */
+
+section.competences {
 	border-bottom: solid 1px gray;
 	box-shadow: 0 1px 0 white;
 }
 
-h3{
-	font: normal 24px 'Pacifico',cursive;
-    color: #002d40;
-    margin: 5px;
+section.competences .tile {
+	display: flex;
+	flex-direction: row;
+
+	margin: 5px 0;
 }
 
-img.competences{
-	position:relative;
-	top:5px;
-	margin-right: 6px;
-	float:left;
+section.competences .image {
+	flex: 0 0 32px;
+	padding-top: 4px;
 }
 
-aside{
-	display:inline-block;
-	width:170px;
+section.competences .content {
+	flex: 0 0 100%;
+	margin-left: 15px;
 }
 
-ul.competences{
-	margin-top:0;
-	list-style-type:none;
-}
-
-h4{
-	font: normal 14px 'Source Sans Pro',sans-serif;
-	color: #002d40;
-	margin-bottom:0;
-}
-
-img.competence{
-	position:relative;
-	top:5px;
-	margin-right:6px;
-	float:left;
+section.competences figure {
+	margin-top: 2px;
 }
 
 figure.niveau1{
 	background: url(images/competences/niveau.png) no-repeat 0 -64px;
 	height: 15px;
 	width:100px;
-	position:relative;
-	bottom:12px
 }
 
 figure.niveau2{
 	background: url(images/competences/niveau.png) no-repeat 0 -48px;
 	height: 15px;
 	width:100px;
-	position:relative;
-	bottom:12px
 }
 
 figure.niveau3{
 	background: url(images/competences/niveau.png) no-repeat 0 -32px;
 	height: 15px;
 	width:100px;
-	position:relative;
-	bottom:12px
 }
 
 figure.niveau4{
 	background: url(images/competences/niveau.png) no-repeat 0 -17px;
 	height: 15px;
 	width:100px;
-	position:relative;
-	bottom:12px
 }
 figure.niveau5{
 	background: url(images/competences/niveau.png) no-repeat;
 	height: 15px;
 	width:100px;
-	position:relative;
-	bottom:12px
 }
 
 section.mobile{
