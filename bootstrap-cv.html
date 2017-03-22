@@ -10,29 +10,8 @@
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!--Ne faites pas ça à la main c'est super degueu-->
-    <style>
-        .bg-rouge {
-            background-color: indianred;
-        }
-        .bg-bleu {
-            background-color: dodgerblue;
-        }
-        .bg-vert {
-            background-color: palegreen;
-        }
-        .bg-jaune {
-            background-color: yellow;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css" />
 </head>
 
 <!-- C'est ici que tout commence -->
@@ -46,25 +25,60 @@
     <header class="row">
         <!--Cet élement prend 2/12 de la largeur sur les format medium et plus-->
         <!--Et 100% de la largeur sur les formats d'écran xs-->
-        <div class="col-xs-12 col-md-2 bg-rouge">
-            <a href="#" class="thumbnail">
-                <img src="/chemin/vers/l'image" alt="Photo de profil">
-            </a>
+        <div class="photo">
+            <img class="photo" src="images/photo.png" alt="photo-profil-cv">
         </div>
         <!--Cet élement prend 10/12 de la largeur en se mettant à la droite du précédent -->
         <!--Sur les format medium et plus-->
         <!--Et 100% de la largeur sur les formats d'écran xs-->
-        <div class="col-xs-12 col-md-10 bg-jaune">
+        <div class="text">
             <div class="row">
-                <div class="col-xs-12 bg-bleu">
-                    <h1>Celestin Zozor</h1>
+                <div class="col-xs-12">
+                    <h1>
+                        Celestin Zozor
+                    </h1>
                 </div>
-                <div class="col-xs-12 bg-vert">
-                    <h2>Intégrateur, mascotte, globe-trotteur et bourrique</h2>
+                <div class="col-xs-12 subtitle">
+                    <h2>
+                        Intégrateur, mascotte, globe-trotteur et bourrique
+                    </h2>
                 </div>
             </div>
         </div>
     </header>
+
+    <nav class="row">
+        <div>
+            <img class="lie" src="images/social/viadeo.png" alt="viadeo">
+            <a href class="lienmenu">
+                Mon Viadeo
+            </a>
+        </div>
+        <div>
+            <img class="lienmenu" src="images/social/twitter.png" alt="twitter">
+            <a href class="lienmenu">
+                Mon Twitter
+            </a>
+        </div>
+        <div>
+            <img class="lienmenu" src="images/social/facebook.png" alt="facebook">
+            <a href class="lienmenu">
+                Mon Facebook
+            </a>
+        </div>
+        <div>
+            <img class="lienmenu" src="images/social/linkedin.png" alt="linkedin">
+            <a href class="lienmenu">
+                Mon Linkedin
+            </a>
+        </div>
+        <div>
+            <img class="lienmenu" src="images/social/mail.png" alt="mail">
+            <a href class="lienmenu">
+                Mon mail
+            </a>
+        </div>
+    </nav>
 
     <div class="row">
         <div class="col-xs-12">
