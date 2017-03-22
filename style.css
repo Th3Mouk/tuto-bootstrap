@@ -231,6 +231,8 @@ section.interets .tile {
     display: flex;
     flex-direction: row;
 
+    min-height: 75px;
+
     margin: 5px 0;
     padding-right: 25px;
 }
