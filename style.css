@@ -31,6 +31,11 @@ h4 {
     margin-bottom: 0;
 }
 
+p {
+    font: normal 12px 'Source Sans Pro', sans-serif;
+    color: #000000;
+}
+
 .container {
     max-width: 800px;
 }
@@ -176,41 +181,30 @@ figure.niveau5 {
 
 /* --- EXPERIENCE --- */
 
-section.mobile {
-    vertical-align: top;
-}
-
 section.experiences {
     border-bottom: solid 1px gray;
     box-shadow: 0 1px 0 white;
 }
 
-img.simple {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
+section.experiences .tile {
+    display: flex;
+    flex-direction: row;
 
+    margin: 5px 0;
 }
 
-img.macdo {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
-
+section.experiences .image {
+    flex: 0 0 120px;
+    margin-right: 15px;
 }
 
-img.tavel {
-    position: relative;
-    top: 5px;
-    margin-right: 6px;
-    float: left;
+section.experiences .content {
+    flex: 0 1 100%;
 }
 
-p {
-    font: normal 12px 'Source Sans Pro', sans-serif;
-    color: #000000;
+section.experiences h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 /* --- FORMATIONS --- */
